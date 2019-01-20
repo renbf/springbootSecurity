@@ -1,0 +1,22 @@
+
+package ${daoPackage};
+import ${modlePackage}.${className};
+import java.util.List;
+import org.apache.ibatis.annotations.Mapper;
+/**
+ * @author rbf
+ * @createdate ${now}
+ * @desriction
+ */
+ @Mapper
+public interface ${className}Dao {
+
+
+	public List<${className}> query${className}All();
+
+	public Integer add${className}(${className} ${classNameField});
+	
+	//public Integer delete${className}ById(Integer id);
+	
+	//public Integer update${className}(${className} classNameField);
+}

@@ -1,0 +1,15 @@
+package ${servicePackage};
+
+import java.util.List;
+import ${modlePackage}.${className};
+/**
+ * @author rbf
+ * @createdate ${now}
+ * @desriction
+ */
+public interface I${className}Service {
+
+	public List<${className}> query${className}All();
+	
+	public Integer add${className}(${className} ${classNameField});
+}
